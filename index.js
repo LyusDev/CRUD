@@ -30,7 +30,7 @@ $(document).ready(function() {
             });
 		}
 		else{
-			alert('Please fill all the field !');
+			alert('Please fill all the fields !');
         }
         
       
