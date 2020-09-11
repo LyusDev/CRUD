@@ -15,7 +15,7 @@ $(document).ready(function() {
                 },
                 cache: false,
 				success: function(dataResult){
-					var dataResult = JSON.parse(dataResult);
+					var dataResult = JSON.toString(dataResult);
 					if(dataResult.statusCode==200){
 						$("#save").removeAttr("disabled");
 						$('#fupForm').find('input:text').val('');
